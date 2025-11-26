@@ -411,7 +411,7 @@ void explorarSalas(Sala *salaAtual, Pista **pistasRaiz)
         printf("\n👋 Saindo da exploração da mansão.\n");
         break;
     default:
-        printf("\n⚠️ Opção inválida. Por favor, escolha 'e', 'd', 'a', ou 's'.\n");
+        printf("\n⚠️  Opção inválida. Por favor, escolha: 'e', 'd', 'a', ou 's'.\n");
         explorarSalas(salaAtual, pistasRaiz);
         break;
     }
