@@ -343,7 +343,7 @@ void explorarSalas(Sala *salaAtual, Pista **pistasRaiz)
     // Verifica se é um nó folha
     if (salaAtual->esquerda == NULL && salaAtual->direita == NULL)
     {
-        printf("\n🎉 Você chegou ao fim deste caminho da mansão !\n");//Nó-Folha
+        printf("\n🎉 Você chegou ao fim deste caminho da mansão !\n"); // Nó-Folha
         printf("\n🤔 Deseja fazer sua dedução final? [a] Analisar Evidências / [s] Sair: ");
         if (scanf(" %c", &escolha) == 1)
         {
